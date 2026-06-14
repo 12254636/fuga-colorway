@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
+import "../components/styles.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -16,8 +17,8 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "AI Colorway Studio",
-  description: "Professional color exploration workflow prototype"
+  title: "FUGA Colorway Studio",
+  description: "Intelligent Product Color Exploration System"
 };
 
 export default function RootLayout({
